@@ -27,20 +27,25 @@ def mean(elements, length):
 
 #Median
 def median(elements, length):
+    #Case 1: Even no. of observations
     if length % 2 == 0:
         return (elements[length//2] + elements[length//2 - 1])/2
 
+    #Case 2: Odd no. of observations
     return elements[length//2]
 
 #Mode
 def mode(elements, length):
     data = Counter(elements)
     get_mode = dict(data)
+    #Case 1: 1 Mode
     mode = [k for k, v in get_mode.items() if v == max(list(data.values()))]
 
+    #Case 2: No mode or multiple modes => get minimum value
     if len(mode) == length or len(mode) >= 2:
         return min(mode)
 
+    #To print without brackets
     mode = ', '.join(map(str, mode))
 
     return mode
