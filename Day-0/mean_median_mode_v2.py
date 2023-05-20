@@ -28,7 +28,16 @@ length = int(input())
 #User input for the elements of the array
 elements = list(map(int, input().strip().split()))[:length]
 
-#Print the calculated output for the Mean, Median, Mode
-print(np.mean(elements))
-print(np.median(elements))
-print(int(stats.mode(elements)[0]))
+#Calculate the Mean of the elements
+mean_result = np.mean(elements)
+
+#Calculate the Median of the elements
+median_result = np.median(elements)
+
+#Calculate the Mode of the elements
+mode_result = int(stats.mode(elements)[0])
+
+#Print the output for the Mean, Median, Mode
+print("%.1f" % mean_result)
+print("%.1f" % median_result)
+print(mode_result)
