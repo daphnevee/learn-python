@@ -49,7 +49,7 @@ def main():
     #Rank the elements of data set Y
     q = rank(y)
         
-    #Calculate Spearman's Rank Correlation Coefficient for data set X and Y
+    #Calculate Spearman's Rank Correlation Coefficient for data sets X and Y
     spearman_result = spearman(n, p, q)
     
     #Print the output for Spearman's Rank Correlation Coefficient
