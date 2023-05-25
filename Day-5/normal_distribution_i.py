@@ -15,8 +15,8 @@ event_a = 19.5
 event_b = 20 22
 
 Expected output:
-Probability for Event A:
-Probability for Event B:
+Probability for Event A: 0.401
+Probability for Event B: 0.341
 """
 #Importing libraries
 import math
