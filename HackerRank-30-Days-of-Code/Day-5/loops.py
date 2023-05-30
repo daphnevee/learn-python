@@ -31,7 +31,7 @@ def main():
         #Constraint: 1 <= i <= 10
         for i in range(1, 11):
             result = n * i
-            print("%d x %d = %d" % (n, i, result))
+            print("{} x {} = {}".format(n, i, result))
     else:
         print("Input numbers only from 2 to 20")
     
