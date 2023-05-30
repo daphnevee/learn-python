@@ -71,7 +71,7 @@
     <td>Dictionaries and Maps</td>
     <td>Problem Solving</td>
     <td>Easy</td>
-    <td></td>
+    <td><a href="https://github.com/daphnevee/learn-python/blob/main/HackerRank-30-Days-of-Code/Day-8/dictionaries_and_maps.py">Python code</a></td>
   </tr>
   <tr>
     <td>9</td>
