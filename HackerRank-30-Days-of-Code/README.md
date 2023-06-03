@@ -106,7 +106,7 @@
     <td>Abstract Classes</td>
     <td>Problem Solving</td>
     <td>Easy</td>
-    <td></td>
+    <td><a href="https://github.com/daphnevee/learn-python/blob/main/HackerRank-30-Days-of-Code/Day-13/abstract_classes.py">Python code</a></td>
   </tr>
   <tr>
     <td>14</td>
