@@ -127,14 +127,14 @@
     <td>Exceptions - String to Integer</td>
     <td>Problem Solving</td>
     <td>Easy</td>
-    <td></td>
+    <td><a href="https://github.com/daphnevee/learn-python/blob/main/HackerRank-30-Days-of-Code/Day-16/exceptions_string_to_integer.py">Python code</a></td>
   </tr>
   <tr>
     <td>17</td>
     <td>More Exceptions</td>
     <td>Problem Solving</td>
     <td>Easy</td>
-    <td></td>
+    <td><a href="https://github.com/daphnevee/learn-python/blob/main/HackerRank-30-Days-of-Code/Day-17/more_exceptions.py">Python code</a></td>
   </tr>
   <tr>
     <td>18</td>
